@@ -1,0 +1,5 @@
+projectKey=my:appadf
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/my:appadf
+ceTaskId=AVoKck8v2aFG6MIOuNhr
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVoKck8v2aFG6MIOuNhr

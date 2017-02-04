@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="com.avanttic.appadf.model.bc.services.AppModuleAM">
+      <AppModuleConfig name="AppModuleAMLocal" ApplicationName="com.avanttic.appadf.model.bc.services.AppModuleAM" DeployPlatform="LOCAL" jbo.project="com.avanttic.appadf.model.Model">
+         <Security AppModuleJndiName="com.avanttic.appadf.model.bc.services.AppModuleAM"/>
+         <Custom JDBCDataSource="java:comp/env/jdbc/HRDS"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="AppModuleAMShared" ApplicationName="com.avanttic.appadf.model.bc.services.AppModuleAM" DeployPlatform="LOCAL" jbo.project="com.avanttic.appadf.model.Model">
+         <AM-Pooling jbo.ampool.maxpoolsize="1" jbo.ampool.isuseexclusive="false"/>
+         <Security AppModuleJndiName="com.avanttic.appadf.model.bc.services.AppModuleAM"/>
+         <Custom JDBCDataSource="java:comp/env/jdbc/HRDS"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>
