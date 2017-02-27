@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="com.avanttic.appadf.model.bc.services.AllAppModuleAMTests" timestamp="2017-02-27T21:31:50" hostname="AVTP113" tests="17" failures="0" errors="0" time="4.973">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="modelproject.name" value="Model" />
+    <property name="os.name" value="Windows NT (unknown)" />
+    <property name="sun.boot.class.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\resources.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\rt.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\sunrsasign.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jsse.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jce.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\charsets.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\modules\jdk.boot.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\classes" />
+    <property name="TODAY" value="February 27 2017" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="C:\Oracle\Middleware11R9\jdeveloper\ant" />
+    <property name="java.runtime.version" value="1.6.0_29-b11" />
+    <property name="user.name" value="javier.llorente" />
+    <property name="modelproject.src.dir" value="../Model/src" />
+    <property name="oracle.jdeveloper.ant.library" value="C:\Oracle\Middleware11R9\jdeveloper\jdev\/lib/ant-jdeveloper.jar" />
+    <property name="testresults.dir" value="testResults." />
+    <property name="javac.deprecation" value="off" />
+    <property name="javax.xml.parsers.SAXParserFactory" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl" />
+    <property name="user.language" value="es" />
+    <property name="sun.boot.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin" />
+    <property name="ant.project.name" value="ModelTest" />
+    <property name="DSTAMP" value="20170227" />
+    <property name="java.version" value="1.6.0_29" />
+    <property name="user.timezone" value="" />
+    <property name="oracle.jdeveloper.ojdeploy.path" value="C:\Oracle\Middleware11R9\jdeveloper\jdev\bin\ojdeploy.exe" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="ES" />
+    <property name="java.home" value="C:\Oracle\Middleware11R9\jdk160_29\jre" />
+    <property name="javax.xml.parsers.DocumentBuilderFactory" value="com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\proyectos\EjemploSonar\ModelTest\buildTest.xml" />
+    <property name="os.version" value="6.2" />
+    <property name="ant.file.ModelTest" value="C:\proyectos\EjemploSonar\ModelTest\buildTest.xml" />
+    <property name="javac.debug" value="on" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="20.4-b02" />
+    <property name="oracle.jdeveloper.workspace.path" value="C:\proyectos\EjemploSonar\AppAdf.jws" />
+    <property name="user.variant" value="" />
+    <property name="output.dir" value="classes" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.home" value="C:\Users\javier.llorente" />
+    <property name="oracle.jdeveloper.project.name" value="ModelTest" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="oracle.home" value="C:\Oracle\Middleware11R9\jdeveloper\" />
+    <property name="java.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;c:\app\javier.llorente\product\11.2.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\javier.llorente\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.avanttic.appadf.model.bc.services.AllAppModuleAMTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\proyectos\EjemploSonar\ModelTest\testResults.\TEST-com.avanttic.appadf.model.bc.services.AllAppModuleAMTests.xml crashfile=C:\proyectos\EjemploSonar\ModelTest\junitvmwatcher4681133975880270880.properties propsfile=C:\proyectos\EjemploSonar\ModelTest\junit3944147651556189853.properties" />
+    <property name="java.class.path" value="C:\proyectos\EjemploSonar\.adf;C:\proyectos\EjemploSonar\ModelTest\classes;C:\proyectos\EjemploSonar\Model\classes;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.idm_11.1.1\identitystore.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\adfm.jar;C:\Oracle\Middleware11R9\oracle_common\modules\groovy-all-2.1.6.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\adftransactionsdt.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.view_11.1.1\adf-dt-at-rt.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\adfdt_common.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\adflibrary.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.xdk_11.1.0\xmlparserv2.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\db-ca.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\jdev-cm.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.ldap_11.1.1\ojmisc.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\commons-el.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\jsp-el-api.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\oracle-el.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.security_11.1.1\adf-share-security.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.security_11.1.1\adf-controller-security.jar;C:\Oracle\Middleware11R9\modules\javax.activation_1.1.0.0_1-1.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\adf-share-support.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share.ca_11.1.1\adf-share-ca.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share.ca_11.1.1\adf-share-base.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\adflogginghandler.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.share_11.1.1\adfsharembean.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jmx_11.1.1\jmxframework.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jmx_11.1.1\jmxspi.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\bc4j-mbeans.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\bc4jwizard.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.javatools_11.1.1\resourcebundle.jar;C:\Oracle\Middleware11R9\modules\javax.mail_1.1.0.0_1-4-1.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.ldap_11.1.1\ldapjclnt11.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-api.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-common.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-ee.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-internal.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-unsupported-api.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jps-manifest.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jps_11.1.1\jacc-spi.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.pki_11.1.1\oraclepki.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.osdt_11.1.1\osdt_core.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.osdt_11.1.1\osdt_cert.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.osdt_11.1.1\osdt_xmlsec.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.osdt_11.1.1\osdt_ws_sx.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.iau_11.1.1\fmw_audit.jar;C:\Oracle\Middleware11R9\modules\javax.security.jacc_1.0.0.0_1-1.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.jdbc_11.1.1\ojdbc6dms.jar;C:\Oracle\Middleware11R9\jdeveloper\BC4J\jlib\bc4jtester.jar;C:\Oracle\Middleware11R9\jdeveloper\BC4J\jlib\bc4jrecorder.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\adfm-debugger.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.adf.model_11.1.1\regexp.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.help_5.0\ohj.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.help_5.0\help-share.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.bali.share_11.1.1\share.jar;C:\Oracle\Middleware11R9\jdeveloper\jlib\jewt4.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.help_5.0\oracle_ice.jar;C:\Oracle\Middleware11R9\jdeveloper\ide\lib\idert.jar;C:\Oracle\Middleware11R9\jdeveloper\ide\lib\javatools.jar;C:\Oracle\Middleware11R9\wlserver_10.3\server\lib\weblogic.jar;C:\Oracle\Middleware11R9\jdeveloper\BC4J\jlib\jpda-examples-1.6.0_21.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.mds_11.1.1\mdsrt.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.mds_11.1.1\oramds.jar;C:\Oracle\Middleware11R9\modules\javax.servlet_1.0.0.0_2-5.jar;C:\Oracle\Middleware11R9\modules\javax.jsp_1.3.0.0_2-1.jar;C:\Oracle\Middleware11R9\oracle_common\jlib\commons-cli-1.0.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.xmlef_11.1.1\xmlef.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.dms_11.1.1\dms.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.xdk_11.1.0\xml.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.javacache_11.1.1\cache.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.ucp_11.1.0.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.odl_11.1.1\ojdl.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.javatools_11.1.1\javatools-nodeps.jar;C:\Oracle\Middleware11R9\modules\javax.management_1.2.1.jar;C:\Oracle\Middleware11R9\modules\javax.management.j2ee_1.0.jar;C:\Oracle\Middleware11R9\oracle_common\modules\oracle.nlsrtl_11.1.0\orai18n.jar;C:\Oracle\Middleware11R9\jdeveloper\jdev\extensions\oracle.jdeveloper.junit\junit4.10\junit-4.10.jar;C:\Oracle\Middleware11R9\jdeveloper\jdev\extensions\oracle.jdeveloper.junit\junit3.8.1\junit.jar;C:\Oracle\Middleware11R9\jdeveloper\jdev\lib\jdev-rt.jar;C:\Oracle\Middleware11R9\jdeveloper\sqlj\lib\runtime12.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\junit.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-launcher.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-junit.jar" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="TSTAMP" value="2231" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="oracle.jdeveloper.deploy.dir" value="C:\proyectos\EjemploSonar\ModelTest\deploy" />
+    <property name="java.io.tmpdir" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\" />
+    <property name="javac.nowarn" value="off" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="oracle.jdeveloper.deploy.outputfile" value="C:\proyectos\EjemploSonar\ModelTest\deploy\${profile.name}" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\proyectos\EjemploSonar\ModelTest" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="C:\proyectos\EjemploSonar\ModelTest" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="modelproject.output.dir" value="../Model/classes" />
+    <property name="jdev.ant.port" value="59767" />
+    <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl" />
+    <property name="oracle.jdeveloper.deploy.profile.name" value="*" />
+  </properties>
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Countries2VO.Countries2VOTest" time="0.0030" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Locations2VO.Locations2VOTest" time="0.0010" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.JobHistory4VO.JobHistory4VOTest" time="0.0010" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.JobHistory3VO.JobHistory3VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.JobHistory2VO.JobHistory2VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Departments3VO.Departments3VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Departments2VO.Departments2VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Employees4VO.Employees4VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Employees3VO.Employees3VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Employees2VO.Employees2VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Regions1VO.Regions1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Locations1VO.Locations1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Jobs1VO.Jobs1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.JobHistory1VO.JobHistory1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Employees1VO.Employees1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Departments1VO.Departments1VOTest" time="0.0" />
+  <testcase name="testAccess" classname="com.avanttic.appadf.model.bc.services.view.Countries1VO.Countries1VOTest" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[27-feb-2017 22:31:50 oracle.adf.share.ADFContext getCurrent
+ADVERTENCIA: Inicializando automáticamente DefaultContext para getCurrent.
+El emisor debe asegurar que DefaultContext es adecuado para este uso.
+Puede faltar memoria y/o se puede provocar un comportamiento inesperado si la inicialización automática no se realiza correctamente.
+Este mensaje se puede evitar ejecutando initADFContext antes de utilizar getCurrent().
+Para obtener más información, active el registro de oracle.adf.share.ADFContext con el mayor detalle posible.
+]]></system-err>
+</testsuite>
