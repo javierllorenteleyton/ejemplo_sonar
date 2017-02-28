@@ -136,10 +136,10 @@
     <pathelement location="../../../Oracle/Middleware11R9/oracle_common/modules/oracle.dms_11.1.1/dms.jar"/>
   </path>
   <path id="library.JUnit.4.Runtime">
-    <pathelement location="${oracle.home}/jdev/extensions/oracle.jdeveloper.junit/junit4.10/junit-4.10.jar"/>
+    <pathelement location="../ModelTest/lib/junit-4.10.jar"/>
   </path>
   <path id="library.JUnit.Runtime">
-    <pathelement location="${oracle.home}/jdev/extensions/oracle.jdeveloper.junit/junit3.8.1/junit.jar"/>
+    <pathelement location="../ModelTest/lib/junit.jar"/>
   </path>
   <path id="library.Oracle.XML.Parser.v2">
     <pathelement location="../../../Oracle/Middleware11R9/oracle_common/modules/oracle.xdk_11.1.0/xmlparserv2.jar"/>
@@ -327,11 +327,14 @@
   </target>
   <target name="allTests" description="runs JUNit tests"
           depends="init,clean,compile,copy">
-    <junit printsummary="on" fork="true" haltonfailure="no">
+
+    <junit printsummary="on" fork="true" forkmode="once" haltonfailure="no">
       <classpath refid="classpath"/>
       <formatter type="xml"/>
       <test todir="${testresults.dir}"
             name="com.avanttic.appadf.model.bc.services.AllAppModuleAMTests"/>
     </junit>
+ 
   </target>
+  
 </project>

@@ -10,12 +10,9 @@
   DBObjectName="DEPARTMENTS"
   AliasName="Departments"
   BindingStyle="OracleName"
-  UseGlueCode="false"
-  RowClass="com.avanttic.appadf.model.bc.entities.DepartmentsImpl">
+  UseGlueCode="false">
   <DesignTime>
-    <Attr Name="_codeGenFlag2" Value="Init|Access"/>
     <AttrArray Name="_publishEvents"/>
-    <Attr Name="_isCodegen" Value="true"/>
   </DesignTime>
   <Attribute
     Name="DepartmentId"

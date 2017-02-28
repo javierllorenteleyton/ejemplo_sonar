@@ -10,5 +10,9 @@
          <Security AppModuleJndiName="com.avanttic.appadf.model.bc.services.AppModuleAM"/>
          <Custom JDBCDataSource="java:comp/env/jdbc/HRDS"/>
       </AppModuleConfig>
+      <AppModuleConfig name="AppModuleAMTest" ApplicationName="com.avanttic.appadf.model.bc.services.AppModuleAM" DeployPlatform="LOCAL" JDBCName="HR" jbo.project="com.avanttic.appadf.model.Model">
+         <Database jbo.locking.mode="optimistic"/>
+         <Security AppModuleJndiName="com.avanttic.appadf.model.bc.services.AppModuleAM"/>
+      </AppModuleConfig>
    </AppModuleConfigBag>
 </BC4JConfig>
